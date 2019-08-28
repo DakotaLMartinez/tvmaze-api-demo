@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require "bundler"
+require "bundler/setup"
+require_relative "../lib/show_list"
+
+ShowList::CLI.new.start
